@@ -36,6 +36,9 @@ plugins:
   - tags
 
   - blog
+extra_css:
+  - overrides/extra.css
+
 
 markdown_extensions:
   - pymdownx.highlight:

@@ -1,0 +1,22 @@
+/* Sfondo nero ovunque */
+body, .md-content, .md-main, .md-container, .md-content__inner {
+    background-color: #000000 !important;
+  }
+  
+  /* Testo giallo fluo */
+  body, .md-typeset, .md-typeset h1, .md-typeset h2, .md-typeset h3,
+  .md-nav__link, .md-nav__title, .md-footer, .md-header, .md-tabs {
+    color: #ffff00 !important;
+  }
+  
+  /* Colore dei link */
+  a {
+    color: #ffff33 !important;
+  }
+  
+  /* Titoli e nav attivi */
+  .md-nav__link--active, .md-nav__link:focus, .md-nav__link:hover {
+    color: #ffff00 !important;
+    background-color: #111 !important;
+  }
+  
